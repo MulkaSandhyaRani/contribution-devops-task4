@@ -1,0 +1,6 @@
+| git clone <repo-url>          | Copies (clones) a remote repository from GitHub (or any Git server) to your local machine.                |
+| git checkout -b <branch-name> | Creates a *new branch* with the given name *and* switches to it immediately.                              |
+| code .                        | Opens the current directory in *VS Code* (works if you have VS Code and the code command installed).      |
+| git add <file-name>           | Stages the specified file so the next commit will include it. Use git add . to stage all changed files.   |
+| git commit -m "message"       | Saves the staged changes in the local repository with a descriptive commit message.                       |
+| git push origin <branch-name> | Uploads your local commits on the specified branch to the remote repository named origin (usually GitHub).|
